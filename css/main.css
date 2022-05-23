@@ -42,6 +42,7 @@ body {
 .header-list {
     display: flex;
     list-style: none;
+    padding: 0;
 }
 
 .header-dollar {
@@ -260,8 +261,9 @@ body {
 
 .world-box {
     display: flex;
-    justify-content: space-between;
-
+}
+.world-news-container{
+    margin-right: 10px;
 }
 
 .world-box-heading {
@@ -394,6 +396,9 @@ body {
 .footer-info{
     padding-top: 40px;
 }
+.box-link{
+    padding-top: 40px;
+}
 
 .logo-link {
     width: 268px;
@@ -403,6 +408,7 @@ body {
 .footer-top {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-bottom: 20px;
     padding-bottom: 30px;
     border-bottom: 1px solid #CECECE;
