@@ -13,7 +13,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding-right: 20px;
-    padding-right: 20;
+    padding-left: 20px;
 }
 
 .header-site-begin {
@@ -73,7 +73,7 @@ body {
     padding-top: 15px;
     padding-bottom: 13px;
     padding-left: 41px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     color: #8D8D8D;
     border-radius: 60px;
 }
@@ -82,13 +82,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #DCE6FF;
-    border-radius: 39px;
     margin-right: 25px;
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 3px;
-
+    background-color: #DCE6FF;
+    border-radius: 39px;
 
 }
 
@@ -96,7 +95,7 @@ body {
     width: 30px;
     height: 30px;
     padding: 7px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 50%;
     font-weight: 400;
     font-size: 13px;
@@ -111,7 +110,6 @@ body {
 }
 
 .login {
-
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -147,7 +145,7 @@ body {
     color: #7F7F7F
 }
 
-.hero {}
+
 
 .ads-shopme {
     margin-top: 40px;
@@ -175,11 +173,11 @@ body {
 }
 
 .hero-item {
-    width: 393px;
-    background: #F6F6F6;
-    border-radius: 15px;
     margin-bottom: 10px;
     padding: 20px 17px;
+    width: 393px;
+    background-color: #F6F6F6;
+    border-radius: 15px;
 }
 
 .hero-item-link {
@@ -190,7 +188,6 @@ body {
     color: #000;
 }
 
-.hero-heading {}
 
 .hero-center {
     margin-right: 10px;
@@ -218,7 +215,6 @@ body {
 .hero-box-desc {
     font-size: 12px;
     line-height: 14px;
-
     color: #5E5F61
 }
 
@@ -230,16 +226,17 @@ body {
     margin-bottom: 60px;
     align-items: center;
     width: 1050px;
-    height: 100px;
+    /* height: 100px; */
     background-color: #ffd7ba;
     padding: 15px;
     border-radius: 10px;
 }
 
 .not-text {
-    width: 404px; 
-    height: 52px; 
-    padding-left: 29px; 
+    width: 404px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 29px;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
@@ -247,6 +244,7 @@ body {
 }
 
 .not-link {
+    width: 149px;
     margin-right: 70px;
     padding: 13px 30px;
     font-weight: 500;
@@ -254,7 +252,6 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     text-decoration: none;
-    width: 149px;
     background-color: #F78B3B;
     border-radius: 10px;
 }
@@ -262,7 +259,8 @@ body {
 .world-box {
     display: flex;
 }
-.world-news-container{
+
+.world-news-container {
     margin-right: 10px;
 }
 
@@ -274,10 +272,10 @@ body {
 }
 
 .world-box-list {
+    width: 796px;
     margin: 0;
     padding: 0;
     list-style: none;
-    width: 796px;
 }
 
 .world-box-item {
@@ -296,7 +294,6 @@ body {
     margin-right: 10px;
 }
 
-.world-desc {}
 
 .world-desc-heading {
     font-weight: 500;
@@ -314,7 +311,7 @@ body {
 }
 
 .show-more {
-   margin-top: 17px;
+    margin-top: 17px;
     padding: 17px 343px;
     background-color: #EAEAEA;
     border-radius: 10px;
@@ -329,45 +326,39 @@ body {
 }
 
 .main-box {
-
     border-radius: 15px;
     width: 393px;
-    
-    /* padding: 10px; */
 }
 
 .main-box-start {
+    margin-bottom: 10px;
     padding: 1px;
+    padding-left: 10px;
     background: #F6F6F6;
     border-radius: 15px;
-    margin-bottom: 10px;
-    padding-left: 10px;
 }
 
 .main-box-title {
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 17px;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
-    padding-top: 20px;
-    padding-right: 25px;
-    padding-left: 17px;
-
 }
 
 .main-list {
-    list-style: none;
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
     padding-top: 25px;
     padding-left: 17px;
+    list-style: none;
 }
 
-.main-list-item {}
 
 .main-link {
-
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
@@ -384,19 +375,20 @@ body {
     font-size: 13px;
     line-height: 15px;
     color: #5E5F61;
-
 }
 
 /* footer */
 
 .footer-box {
+    margin-top: 100px;
     background-color: #7297EF;
-    margin-top: 100px; 
 }
-.footer-info{
+
+.footer-info {
     padding-top: 40px;
 }
-.box-link{
+
+.box-link {
     padding-top: 40px;
 }
 
@@ -412,7 +404,6 @@ body {
     margin-bottom: 20px;
     padding-bottom: 30px;
     border-bottom: 1px solid #CECECE;
-
 }
 
 .footer-title {
