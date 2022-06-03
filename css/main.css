@@ -134,11 +134,12 @@ body {
     border: none;
     border-radius: 60px;
 }
-.search-box{
+
+.search-box {
     position: relative;
 }
 
-.search-box::before{
+.search-box::before {
     position: absolute;
     top: 0px;
     left: 10px;
@@ -285,9 +286,66 @@ body {
 }
 
 .hero-box-desc {
+    display: flex;
+    align-items: center;
     font-size: 12px;
     line-height: 14px;
     color: #5E5F61
+}
+
+
+.hero-box-desc::before{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+    content: "";
+}
+.kb-img{
+    background-image: url(../images/kb.png);
+    background-repeat: no-repeat;
+}
+
+.news-kb{
+    background-image: url(../images/news.png);
+    background-repeat: no-repeat;
+}
+
+.hitech-img{
+    background-image: url(../images/hi-tech.png);
+    background-repeat: no-repeat;
+}
+
+.digger-img{
+    background-image: url(../images/digger.png);
+    background-repeat: no-repeat;
+}
+
+.lenta-img{
+    background-image: url(../images/lenta.png);
+    background-repeat: no-repeat;
+}
+
+.tarantas-img{
+    background-image: url(../images/newsLogo.png);
+    background-repeat: no-repeat;
+}
+
+.tass-img{
+    background-image: url(../images/tass.png);
+    background-repeat: no-repeat;
+}
+
+.solenka-img{
+    background-image: url(../images/solenka.png);
+    background-repeat: no-repeat;
+}
+
+
+.invest-img{
+    background-image: url(../images/invest.png);
+    background-repeat: no-repeat;
 }
 
 .notification-box {
@@ -298,7 +356,7 @@ body {
     margin-bottom: 60px;
     align-items: center;
     width: 1050px;
-    background-color: #ffd7ba;
+    background-image: url(../images/article-back.svg);
     border-radius: 10px;
 }
 
@@ -361,7 +419,7 @@ body {
 }
 
 .world-img {
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 
@@ -523,6 +581,57 @@ body {
     list-style: none;
 }
 
+
+/* Interest Page */
+
+
+.new-homes{
+    margin-bottom: 50px;
+}
+
+.time-list{
+    margin-left: 3px;
+}
+
+
+.pepelas-img{
+    background-image: url(../images/pepelas.png);
+    background-repeat: no-repeat;
+}
+
+.dns-img{
+    background-image: url(../images/dns.png);
+    background-repeat: no-repeat;
+}
+
+.sputnik-img{
+    background-image: url(../images/sputnik.png);
+    background-repeat: no-repeat;
+}
+
+.reactor-img{
+    background-image: url(../images/ireactor.png);
+    background-repeat: no-repeat;
+}
+
+.company-img{
+    background-image: url(../images/companya.png);
+    background-repeat: no-repeat;
+}
+
+.fergana-img{
+    background-image: url(../images/fe.png);
+    background-repeat: no-repeat;
+}
+
+.techno-link{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
 /* Contact Page */
 
 .contact {
@@ -579,6 +688,14 @@ body {
     border: 1px solid #00000033;
     border-radius: 10px;
     resize: none;
+    font-family: 'Rubik';
+}
+
+.textarea::placeholder {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
 }
 
 .contact-list {
@@ -622,14 +739,14 @@ body {
     padding-bottom: 1px;
 }
 
-.submit-box{
+.submit-box {
     display: flex;
     justify-content: flex-end;
     margin-right: 4px;
 }
 
 .send-btn {
-    
+
     padding: 17px 30px;
     background: #7297EF;
     border-radius: 10px;
@@ -638,3 +755,5 @@ body {
     color: #FFFFFF;
     border: none;
 }
+
+
